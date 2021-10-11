@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+/* ---------------------------HEADER----------------------- */
+
+header{
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    z-index: 1;
+    background-color: #ffffff;
+
+}
+
+.logo{
+    height: 100%;
+    float: left;
+    margin: 25px 0 0 300px;
+
+}
+.logo img{
+    padding: 10px;
+    height: 60px;
+}
+
+nav{
+    height: 100%;
+    float: right;
+    text-align: center;
+    padding-top: 40px;
+    margin-right: 300px;
+}
+
+nav a{
+    color: #0a0a0a;
+    padding-right: 17px;   
+    font-size: 17px; 
+    font-family: 'RocknRoll One', sans-serif;
+    transition: 0.5s;
+}
+
+/* -------------------------image-content-------------------- */
+
+.image-content img{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 530px;
+} 
+
+.image-content {
+    position: relative;
+    margin: 0px;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+.quote{
+    position: absolute;
+    width: 100%;
+    top:40%;
+}
+
+
+.quote p{
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Poppins', serif;
+
+}
+
+.quote h1{
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: 'Vesper Libre', serif;
+}
+
+
+/* -----------------------about----------------------------- */
+
+.about{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    margin: 0 200px 0 200px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.about h1{
+    color: #139139;
+    font-family: 'Work Sans', sans-serif;
+    padding: 25px 0 40px 0 ;
+    font-size: 32px;
+}
+
+.about p{
+    font-size: 14px;
+    font-family: 'Poppins', serif;
+    color: black;
+    font-weight: 500;
+}
+
+.card-list{
+    display: inline-flex;
+    margin-top: 50px;
+    width: 700px;
+}
+
+.card{
+    flex-basis: 50%;
+    min-width: 250px;
+    padding: 10px;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h2 {
+    text-align: left;
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.card p {
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Poppins', serif;
+
+}
+
+
+
+/* -----------------awards---------------------------- */
+.awards{
+    position: relative;
+    top: 200px;
+    max-width: 100%;
+    text-align: center;
+    background-color: #F0F0F0;
+    padding: 20px;
+}
+
+.award-card{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 10px;
+}
+
+.award-card img{
+    width: 100%;
+    /* padding: 40px; */
+}
+
+.award-card-list{
+    display: inline-flex;
+    max-width: 100%;
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+
+.awards h1{
+    color: #139139;
+    font-family: 'Work Sans', sans-serif;
+    padding: 25px 0 40px 0 ;
+    font-size: 32px;
+}
+
+.h2{
+    font-family: 'Source Serif Pro', serif;
+    margin-left: 55px;
+    margin-right: 55px;
+    padding: 20px 0 5px 0;
+}
+
+.awards p{
+    text-transform: uppercase;
+    font-family: 'Poppins', serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #989898;
+
+}
+
+/* -----------------------form------------------------------ */
+
+.form{
+    position: relative;
+    top: 250px;
+    width: 100%;
+    display: inline-flex;
+}
+
+.col-2{
+    flex-basis: 50%;
+    max-width: 100%;
+    padding: 50px;
+    
+
+}
+
+.contact{
+    position: relative;
+    top: 250px;
+    background-color: #F0F0F0;
+    text-align: center;
+    color: #139139;
+    font-family: 'Work Sans', sans-serif;
+    padding: 20px;
+}
+
+.col-2 h2{
+    font-family: 'Poppins', serif;
+    font-size: 17px;
+    font-weight: 900;
+    padding-bottom: 20px;
+
+}
+
+
+.col-2 p{
+    font-family: 'Poppins', serif;
+    font-size: 14px;
+
+}
+
+.col-2 i{
+    padding:  15px 10px 10px 0;
+    color: gray;
+}
+
+
+/* ----------------------------footer------------------------------ */
+
+.footer{
+    position: relative;
+    background-color: #139139;
+    top: 250px;
+    width: 100%;
+    bottom: 0;
+    height: 70px;
+    padding: 20px;
+}
+
+.links{
+    position: relative;
+    float: right;
+}
+
+.links ul{
+    display: inline-flex;
+    margin-right: 300px;
+}
+
+.footer p{
+    display: inline;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size: 16px;
+
+}
+
+.links ul li{
+    padding: 0 10px 0 10px;
+    /* width: 60px; */
+    font-size: 20px;
+    list-style-type: none;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+
+.top{
+    color: #ffffff;
+    cursor: pointer;
+}
